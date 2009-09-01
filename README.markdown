@@ -1,8 +1,8 @@
-## CakePHP Include Helper Plugin
+# CakePHP Include Helper Plugin
 
 A simple helper for automagically including css & js assets (PHP 5 only)
 
-### Example usage:
+## Example usage:
 
 Extract the plugin to your CakePHP plugin directory, eg. .../project/app/plugins/include\_helper/
 
