@@ -8,8 +8,8 @@ This helper will check if the following css & js files exist in your CakePHP web
 
  - /css/&lt;controller&gt;/&lt;action&gt;.css
  - /css/&lt;controller&gt;/shared.css
- - /js/&lt;controller&gt;/&lt;action&gt;.css
- - /js/&lt;controller&gt;/shared.css
+ - /js/&lt;controller&gt;/&lt;action&gt;.js
+ - /js/&lt;controller&gt;/shared.js
 
 ### Scenario 1 - Posts controller with an index action
 
@@ -26,8 +26,8 @@ Files that will be included if they exist:
 
  - /css/pages/display_example.css
  - /css/pages/shared.css
- - /js/pages/display_example.css
- - /js/pages/shared.css
+ - /js/pages/display_example.js
+ - /js/pages/shared.js
 
 ## How to use
 
