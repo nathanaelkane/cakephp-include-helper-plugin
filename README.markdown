@@ -2,7 +2,34 @@
 
 A simple helper for automagically including css & js assets (PHP 5 only)
 
-## Example usage:
+## What it does
+
+This helper will check if the following css & js files exist in your CakePHP webroot. If they do, they will be included for the current page.
+
+ - /css/&lt;controller&gt;/&lt;action&gt;.css
+ - /css/&lt;controller&gt;/shared.css
+ - /js/&lt;controller&gt;/&lt;action&gt;.css
+ - /js/&lt;controller&gt;/shared.css
+
+### Scenario 1 - Posts controller with an index action
+
+Files that will be included if they exist:
+
+ - /css/posts/index.css
+ - /css/posts/shared.css
+ - /js/posts/index.js
+ - /js/posts/shared.js
+
+### Scenario 2 - Pages controller with an 'example' static view, ie. .../project/app/views/pages/example.ctp
+
+Files that will be included if they exist:
+
+ - /css/pages/display_example.css
+ - /css/pages/shared.css
+ - /js/pages/display_example.css
+ - /js/pages/shared.css
+
+## How to use
 
 Extract the plugin to your CakePHP plugin directory, eg. .../project/app/plugins/include\_helper/
 
@@ -26,4 +53,3 @@ Use in your layout: (eg. .../project/app/views/layouts/default.ctp)
     <body>
         <?= $content_for_layout ?>
     </body>
-    </html>
