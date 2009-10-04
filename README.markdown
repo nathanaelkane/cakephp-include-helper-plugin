@@ -17,11 +17,11 @@ Add as a git submodule
 
     git submodule add git://github.com/nathanaelkane/cakephp-include-helper-plugin.git app/plugins/include_helper
 
-Alternatively, you can manually download the plugin and place the files in app/plugins/include_helper
+Alternatively, you can manually download the plugin and place the files in /app/plugins/include_helper
 
 ### Setup in CakePHP
 
-Setup your app\_controller.php (eg. .../project/app/app\_controller.php)
+Setup your app\_controller.php (eg. /app/app\_controller.php)
 
     <?php
     class AppController extends Controller {
@@ -29,7 +29,7 @@ Setup your app\_controller.php (eg. .../project/app/app\_controller.php)
     }
     ?>
 
-Use in your layout: (eg. .../project/app/views/layouts/default.ctp)
+Use in your layout: (eg. /app/views/layouts/default.ctp)
 
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml">
@@ -53,7 +53,7 @@ Files that will be included if they exist:
 - /js/posts/index.js
 - /js/posts/shared.js
 
-### Scenario 2 - Pages controller with an 'example' static view, ie. .../project/app/views/pages/example.ctp
+### Scenario 2 - Pages controller with an 'example' static view, ie. /app/views/pages/example.ctp
 
 Files that will be included if they exist:
 
