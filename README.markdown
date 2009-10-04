@@ -15,9 +15,9 @@ The built-in Pages controller is supported, read the Usage Scenario 2.
 
 Add as a git submodule
 
-    git submodule add git://github.com/nathanaelkane/cakephp-include-helper-plugin.git app/plugins/include_helper
+    git submodule add git://github.com/nathanaelkane/cakephp-include-helper-plugin.git app/plugins/include_helper/
 
-Alternatively, you can manually download the plugin and place the files in /app/plugins/include_helper
+Alternatively, you can manually download the plugin and place the files in /app/plugins/include_helper/
 
 ### Setup in CakePHP
 
